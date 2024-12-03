@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_clean_architecture/core/common/widget/loader.dart';
 import 'package:flutter_clean_architecture/core/utils/helpers.dart';
-import 'package:flutter_clean_architecture/core/utils/helpers/helper_interface.dart';
 import 'package:flutter_clean_architecture/features/presentation/state_managment/auth_bloc/auth_bloc.dart';
 import 'package:flutter_clean_architecture/features/presentation/widget/button.dart';
 import 'package:flutter_clean_architecture/features/presentation/widget/tex_field.dart';

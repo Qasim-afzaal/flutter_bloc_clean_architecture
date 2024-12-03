@@ -1,6 +1,5 @@
 import 'dart:math';
 
-import 'package:flutter/material.dart';
 import 'package:flutter_clean_architecture/core/utils/helpers/helper_interface.dart';
 
 class ImageHelper implements Helper {

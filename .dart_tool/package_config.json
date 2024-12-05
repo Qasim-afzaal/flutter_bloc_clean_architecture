@@ -140,6 +140,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "get_it",
+      "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/get_it-8.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "google_fonts",
       "rootUri": "file:///Users/qasim/.pub-cache/hosted/pub.dev/google_fonts-6.2.1",
       "packageUri": "lib/",
@@ -524,7 +530,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-11-17T23:01:29.584692Z",
+  "generated": "2024-11-21T23:37:43.696067Z",
   "generator": "pub",
   "generatorVersion": "3.3.4"
 }

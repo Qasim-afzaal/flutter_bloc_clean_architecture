@@ -25,7 +25,7 @@ class AuthRemoteDataSourceImp implements AuthRemoteDataSource {
         Helpers.snackbars
             .error(title: "Exception", message: "User data is null");
       }
-      return UserModel.fromJsom(response.user!.toJson());
+      return UserModel.fromJson(response.user!.toJson());
     } catch (e) {
       rethrow;
     }
@@ -43,7 +43,7 @@ class AuthRemoteDataSourceImp implements AuthRemoteDataSource {
         Helpers.snackbars
             .error(title: "Exception", message: "User data is null");
       }
-      return UserModel.fromJsom(response.user!.toJson());
+      return UserModel.fromJson(response.user!.toJson());
     } catch (e) {
       rethrow;
     }

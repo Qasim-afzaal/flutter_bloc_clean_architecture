@@ -39,7 +39,7 @@ class SnackbarHelper implements Helper {
     _showSnackBar(
       title: title,
       message: message,
-      backgroundColor: Colors.blueGrey,
+      backgroundColor: Colors.black,
       icon: Icons.info,
     );
   }
@@ -48,7 +48,7 @@ class SnackbarHelper implements Helper {
     required String title,
     required String message,
     required IconData icon,
-    Color backgroundColor = Colors.black87,
+    Color backgroundColor = Colors.black,
     Color textColor = Colors.white,
     Color iconColor = Colors.white,
     Color closeIconColor = Colors.white,
